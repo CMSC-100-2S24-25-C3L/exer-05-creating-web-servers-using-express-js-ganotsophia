@@ -48,28 +48,28 @@ app.get('/find-by-isbn-author', (req, res) => {
 
 })
 
-    app.get('/find-by-author', (req, res) => {
+    // app.get('/find-by-author', (req, res) => {
     
-        const { author} = req.query;
+    //     const { author} = req.query;
     
-        readFile('books.txt', 'utf8', (err, data) => {
-            if (err) {
-                res.status(500).send('Error reading file');
-                return;
-            }
+    //     readFile('books.txt', 'utf8', (err, data) => {
+    //         if (err) {
+    //             res.status(500).send('Error reading file');
+    //             return;
+    //         }
     
-            // const books = data.trim().split('\n').filter(line => line !== '');
+    //         // const books = data.trim().split('\n').filter(line => line !== '');
     
-            // const foundBooks = books.filter(book => {
-            //     const [name, bookIsbn, bookAuthor, date] = book.split(',').map(s => s.trim());
-            //     return (isbn && bookIsbn === isbn) || (author && bookAuthor === author);
-            // });
-            // res.json({foundBooks});
+    //         // const foundBooks = books.filter(book => {
+    //         //     const [name, bookIsbn, bookAuthor, date] = book.split(',').map(s => s.trim());
+    //         //     return (isbn && bookIsbn === isbn) || (author && bookAuthor === author);
+    //         // });
+    //         // res.json({foundBooks});
     
             
-    });
+    // });
 
-});
+
 
 
 
