@@ -1,1 +1,7 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/PsgfsGaD)
+Exercise 2: Web Server with Express JS
+
+Sophia Reign N. Ganot BS Computer Science 2023-02605 CMSC 100 - C3L
+
+Link: https://github.com/CMSC-100-2S24-25-C3L/exer-05-creating-web-servers-using-express-js-ganotsophia.git
+
+Key takeaways: I have learned mostly the difference between app.post and app.get wherein app.get is commonly used to fetch data and app.post to submit data to server and for modifications.

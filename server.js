@@ -17,7 +17,6 @@ app.post('/add-book', (req, res) => {
     try{
         fd = openSync('books.txt', 'a');
         appendFileSync(fd, `${name}, ${isbn}, ${author}, ${date} \n`, 'utf8');
-        console.log('Write successful');
     
         console.log({success: true });
     }catch (err){
